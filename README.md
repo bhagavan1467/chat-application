@@ -1,13 +1,15 @@
 # ChitChat — Real-Time Chat Application
 
 A full-stack real-time chat application built with the MERN stack and Socket.IO.
-## 🔐 Environment Variables
+##  Environment Variables
 
 Create a `.env` file in the server folder:
+## Prequisites
+    Install dependencies
+   cd server
+   npm install
 
 ##  Quick Start
-
-
 
 ### 1. Set up the database password
 

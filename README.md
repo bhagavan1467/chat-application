@@ -4,8 +4,7 @@ A full-stack real-time chat application built with the MERN stack and Socket.IO.
 ##  Environment Variables
 
 Create a `.env` file in the server folder:
-## Prequisites
-    Install dependencies
+## Prequisites : Install dependencies
    cd server
    npm install
 

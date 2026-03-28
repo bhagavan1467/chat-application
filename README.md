@@ -2,7 +2,7 @@
 
 A full-stack real-time chat application built with the MERN stack and Socket.IO.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Set up the database password
 
@@ -30,7 +30,7 @@ npm run dev
 
 Frontend runs on: http://localhost:5173
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -42,22 +42,22 @@ Frontend runs on: http://localhost:5173
 | Styling | Vanilla CSS (Dark Mode + Glassmorphism) |
 | File Upload | Multer |
 
-## ✨ Features
+## Features
 
-- ✅ **Authentication** — Register & Login with JWT
-- ✅ **Public Channels** — Create and join group chat rooms
-- ✅ **Private Channels** — Invite-only rooms
-- ✅ **Direct Messages** — One-on-one private conversations
-- ✅ **Real-time Messaging** — Instant messages via WebSockets
-- ✅ **File & Image Sharing** — Upload images and documents up to 10MB
-- ✅ **Image Lightbox** — Click images to view full size
-- ✅ **Typing Indicators** — See when others are typing
-- ✅ **Online Presence** — Real-time online/offline status
-- ✅ **Message History** — Persistent messages stored in MongoDB
-- ✅ **Emoji Picker** — Built-in emoji panel
-- ✅ **Responsive Design** — Works on all screen sizes
+-  **Authentication** — Register & Login with JWT
+-  **Public Channels** — Create and join group chat rooms
+-  **Private Channels** — Invite-only rooms
+-  **Direct Messages** — One-on-one private conversations
+-  **Real-time Messaging** — Instant messages via WebSockets
+-  **File & Image Sharing** — Upload images and documents up to 10MB
+-  **Image Lightbox** — Click images to view full size
+-  **Typing Indicators** — See when others are typing
+- **Online Presence** — Real-time online/offline status
+-  **Message History** — Persistent messages stored in MongoDB
+-  **Emoji Picker** — Built-in emoji panel
+-  **Responsive Design** — Works on all screen sizes
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 chat-application/
@@ -82,7 +82,7 @@ chat-application/
     └── index.html
 ```
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description | Auth Required |
 |---|---|---|---|
@@ -97,7 +97,7 @@ chat-application/
 | POST | /api/messages/upload | Upload a file | Yes |
 | GET | /api/users | List all users | Yes |
 
-## ⚡ Socket.IO Events
+##  Socket.IO Events
 
 ### Client → Server
 - `join_room` — Join a room

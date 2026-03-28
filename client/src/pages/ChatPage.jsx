@@ -262,7 +262,7 @@ export default function ChatPage() {
           /* Welcome screen */
           <div className="welcome-panel">
             <div style={{ fontSize: '4rem' }}>💬</div>
-            <h1 className="welcome-title">Welcome to NexChat</h1>
+            <h1 className="welcome-title">Welcome to ChitChat</h1>
             <p className="welcome-subtitle">
               Real-time messaging for teams and friends. Select a channel from the sidebar or start a direct conversation.
             </p>

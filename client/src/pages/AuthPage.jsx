@@ -47,7 +47,7 @@ export default function AuthPage() {
         {/* Logo */}
         <div className="auth-logo">
           <div className="auth-logo-icon">💬</div>
-          <span className="auth-logo-text">NexChat</span>
+          <span className="auth-logo-text">ChitChat</span>
         </div>
 
         {/* Tabs */}
@@ -76,7 +76,7 @@ export default function AuthPage() {
         <form className="auth-form" onSubmit={handleSubmit} noValidate>
           <div>
             <h1 className="auth-title">
-              {tab === 'login' ? 'Welcome back 👋' : 'Join NexChat ✨'}
+              {tab === 'login' ? 'Welcome back 👋' : 'Join ChitChat ✨'}
             </h1>
             <p className="auth-subtitle">
               {tab === 'login'

@@ -1,4 +1,4 @@
-# NexChat — Real-Time Chat Application
+# ChitChat — Real-Time Chat Application
 
 A full-stack real-time chat application built with the MERN stack and Socket.IO.
 

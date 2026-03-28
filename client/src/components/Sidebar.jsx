@@ -50,7 +50,7 @@ export default function Sidebar({ rooms, activeRoom, onSelectRoom, onCreateRoom,
         <div className="sidebar-header">
           <div className="sidebar-logo">
             <div className="sidebar-logo-icon">💬</div>
-            <span className="sidebar-logo-text">NexChat</span>
+            <span className="sidebar-logo-text">ChitChat</span>
           </div>
         </div>
 

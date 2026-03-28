@@ -117,7 +117,7 @@ const socketHandler = (io) => {
 
     // ── DISCONNECT ─────────────────────────────────────────────
     socket.on('disconnect', async () => {
-      console.log(`❌ ${user.username} disconnected`);
+      console.log(`{user.username} disconnected`);
       onlineUsers.delete(user._id.toString());
       await User.findByIdAndUpdate(user._id, { status: 'offline' });
       io.emit('user_status_changed', { userId: user._id, status: 'offline' });

@@ -1,15 +1,20 @@
 # ChitChat — Real-Time Chat Application
 
 A full-stack real-time chat application built with the MERN stack and Socket.IO.
+## 🔐 Environment Variables
+
+Create a `.env` file in the server folder:
 
 ##  Quick Start
+
+
 
 ### 1. Set up the database password
 
 Open `server/.env` and replace `YOUR_DB_PASSWORD` with your actual MongoDB Atlas password:
 
 ```
-MONGO_URI=mongodb+srv://bhagavanpatnana1467_db_user:YOUR_ACTUAL_PASSWORD@cluster0.bcc00eu.mongodb.net/chatapp?retryWrites=true&w=majority
+MONGO_URI=your_mongodb_connection_string
 ```
 
 ### 2. Start the backend server
@@ -112,3 +117,15 @@ chat-application/
 - `user_stop_typing` — Someone stopped typing
 - `user_status_changed` — Online/offline status update
 - `user_joined` — User joined a room
+### signup page
+![signup](screenshots/signup.png)
+## Login page
+![Login](screenshots/login.png)
+## Home page
+![Home](screenshots/home.png)
+## Chat Page
+![Chat](screenshots/chat.png)
+## Room Page
+![Room chat](screenshots/roomchat.png)
+## Files sending
+![files sharing](screenshots/filessending.png)

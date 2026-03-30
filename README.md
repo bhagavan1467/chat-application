@@ -120,13 +120,13 @@ chat-application/
 - `user_joined` — User joined a room
 ### signup page
 ![signup](screenshots/signup.png)
-## Login page
+### Login page
 ![Login](screenshots/login.png)
-## Home page
+### Home page
 ![Home](screenshots/home.png)
-## Chat Page
+### Chat Page
 ![Chat](screenshots/chat.png)
-## Room Page
+### Room Page
 ![Room chat](screenshots/roomchat.png)
-## Files sending
-![files sharing](screenshots/filessending.png)
+### Files sending
+![files sharing](screenshots/file-upload.png)
